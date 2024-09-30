@@ -4,6 +4,10 @@
     "features": {
         "ghcr.io/julialang/devcontainer-features/julia:1": {
             "channel": "release"
+        },
+        "ghcr.io/mathworks/devcontainer-features/matlab:0": {
+            "release": "r2024a",
+            "products": "MATLAB Symbolic_Math_Toolbox"
         }
     },
 
@@ -14,7 +18,7 @@
 				"ms-toolsai.jupyter"
 			]
 		}
-	},
+	}
 
-    "postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl"
+    // "postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl"
 }
