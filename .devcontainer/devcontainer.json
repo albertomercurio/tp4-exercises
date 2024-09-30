@@ -3,12 +3,12 @@
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
     "features": {
         "ghcr.io/devcontainers/features/python:1": {
-            "version": "latest",
+            "version": "3.12",
             "installTools": true,
 			"installJupyterlab": true
         },
-        "ghcr.io/devcontainers/features/julia:1": {
-            "version": "latest"
+        "ghcr.io/julialang/devcontainer-features/julia:1": {
+            "channel": "release"
         }
     },
 
